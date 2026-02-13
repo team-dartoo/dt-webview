@@ -23,6 +23,7 @@ export default function StartScreen() {
 
       <WebView
         source={{ uri: "https://dartoo-web.vercel.app/" }}
+        textZoom={100}
         style={styles.webview}
         // 하단바와 겹침 현상을 방지하기 위해 스크롤 여백 최적화
         showsVerticalScrollIndicator={false}
